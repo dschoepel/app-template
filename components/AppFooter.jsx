@@ -9,7 +9,7 @@ export default function AppFooter() {
         borderTop: '1px solid rgba(0,0,0,0.06)',
       }}
     >
-      __APP_NAME__ — v{process.env.NEXT_PUBLIC_APP_VERSION}
+      __APP_NAME__ — {process.env.NEXT_PUBLIC_APP_VERSION}
     </footer>
   )
 }
